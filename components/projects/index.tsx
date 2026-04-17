@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useState, useCallback } from "react";
 import Modal from "../common/Modal";
 import SectionHeader from "../common/SectionHeader";
@@ -49,34 +49,36 @@ export default function Projects({ dict }: ProjectsProps) {
         </motion.div>
       </div>
 
-      <Modal
-        isOpen={!!selectedProject}
-        onClose={closeModal}
-        title={selectedProject?.title ?? ""}
-      >
+      <AnimatePresence>
         {selectedProject && (
-          <div className="flex flex-col h-full">
-            <div className="mb-8">
-              <ProjectLabels labels={selectedProject.labels ?? []} />
-            </div>
+          <Modal
+            isOpen={!!selectedProject}
+            onClose={closeModal}
+            title={selectedProject?.title ?? ""}
+          >
+            <div className="flex flex-col h-full">
+              <div className="mb-8">
+                <ProjectLabels labels={selectedProject.labels ?? []} />
+              </div>
 
-            <div className="prose prose-invert max-w-none flex-1">
-              <p className="text-lg text-white/80 leading-relaxed italic border-l-4 border-purple-500/50 pl-6 py-2">
-                {selectedProject.description}
-              </p>
-            </div>
+              <div className="prose prose-invert max-w-none flex-1">
+                <p className="text-lg text-white/80 leading-relaxed italic border-l-4 border-purple-500/50 pl-6 py-2">
+                  {selectedProject.description}
+                </p>
+              </div>
 
-            <div className="mt-10 flex justify-end">
-              <button
-                onClick={closeModal}
-                className="px-8 py-3 rounded-full glass-button text-sm font-bold cursor-pointer hover:scale-105 transition-transform"
-              >
-                {close}
-              </button>
+              <div className="mt-10 flex justify-end">
+                <button
+                  onClick={closeModal}
+                  className="px-8 py-3 rounded-full glass-button text-sm font-bold cursor-pointer hover:scale-105 transition-transform"
+                >
+                  {close}
+                </button>
+              </div>
             </div>
-          </div>
+          </Modal>
         )}
-      </Modal>
+      </AnimatePresence>
     </section>
   );
 }

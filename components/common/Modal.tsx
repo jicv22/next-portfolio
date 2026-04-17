@@ -15,8 +15,6 @@ interface ModalProps {
 export default function Modal({ isOpen, onClose, title, children }: ModalProps) {
   useScrollLock(isOpen);
 
-  if (!isOpen) return null;
-
   return (
     <div className="fixed inset-0 z-100 flex items-center justify-center p-6">
       <motion.div

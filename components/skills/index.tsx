@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useState, useCallback } from "react";
 import Modal from "../common/Modal";
 import SectionHeader from "../common/SectionHeader";
@@ -69,17 +69,21 @@ export default function Skills({ dict }: SkillsProps) {
         )}
       </div>
 
-      <Modal
-        isOpen={isModalOpen}
-        onClose={toggleModal}
-        title={title}
-      >
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 pt-4">
-          {skillsList.map((skill, idx) => (
-            <SkillCard key={idx} skill={skill} compact />
-          ))}
-        </div>
-      </Modal>
+      <AnimatePresence>
+        {isModalOpen && (
+          <Modal
+            isOpen={isModalOpen}
+            onClose={toggleModal}
+            title={title}
+          >
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 pt-4">
+              {skillsList.map((skill, idx) => (
+                <SkillCard key={idx} skill={skill} compact />
+              ))}
+            </div>
+          </Modal>
+        )}
+      </AnimatePresence>
     </section>
   );
 }

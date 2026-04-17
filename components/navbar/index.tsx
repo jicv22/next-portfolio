@@ -95,14 +95,15 @@ export default function Navbar({ dict, lang }: NavbarProps) {
       </motion.nav>
 
       <AnimatePresence>
-        <MobileMenu 
-          isOpen={isMenuOpen} 
-          links={navLinks} 
-          lang={lang} 
-          switchedPath={switchedLangPath} 
-          onClose={closeMenu}
-          langDict={langDict}
-        />
+        {isMenuOpen && (
+          <MobileMenu 
+            links={navLinks} 
+            lang={lang} 
+            switchedPath={switchedLangPath} 
+            onClose={closeMenu}
+            langDict={langDict}
+          />
+        )}
       </AnimatePresence>
     </>
   );
