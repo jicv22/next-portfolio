@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "title": "JICV | Portafolio",
+    "description": "Portafolio de Desarrollador Frontend y Programador de Gameplay | Jose Isaac Cambronero Valverde"
+  },
+  "navigation": {
+    "about": "Acerca de m\u00ed",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "games": "Videojuegos"
+  },
+  "hero": {
+    "role": "Desarrollador Frontend",
+    "roles": ["Desarrollador Frontend", "Programador de Gameplay"],
+    "experience_label": "4+ años de experiencia",
+    "value_proposition": "Simplificando la complejidad técnica con soluciones de alta calidad, diseñadas para cumplir con los plazos más exigentes.",
+    "heading_1": "Creativo.",
+    "heading_2": "Escalable.",
+    "heading_3": "Rápido.",
+    "view_projects": "Ver Proyectos",
+    "contact_me": "Cont\u00e1ctame",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "cv": "Descargar CV"
+  },
+  "about": {
+    "title": "Sobre M\u00ed",
+    "p1": "Soy Isaac, un desarrollador impulsado por la creación de experiencias digitales a medida. Lo que comenzó modificando videojuegos, evolucionó en una carrera sólida como desarrollador Frontend con bases en Backend, cultivando, paralelamente, un hobby por la programación de gameplay para videojuegos.",
+    "p2": "Mi trayectoria profesional inici\u00f3 en la etapa universitaria, lo que me permiti\u00f3 acumular m\u00e1s de 4 a\u00f1os de experiencia real enfrentando retos t\u00e9cnicos, gestionando clientes y optimizando la experiencia de usuario. Hoy, combino mi perfil t\u00e9cnico con habilidades en animaci\u00f3n 3D, creaci\u00f3n de contenido multimedia y composici\u00f3n musical para construir productos digitales integrales y memorables cuando me es requerido o posible.",
+    "highlights": [
+      "experiencias digitales a medida",
+      "modificando videojuegos",
+      "más de 4 años de experiencia real"
+    ]
+  },
+  "skills": {
+    "title": "Tecnologías",
+    "show_all": "Ver Todo",
+    "list": [
+      { "name": "React JS", "category": "Frontend", "slug": "react" },
+      { "name": "Remix", "category": "Frontend", "slug": "remix" },
+      { "name": "Tailwind CSS", "category": "Estilos", "slug": "tailwindcss" },
+      { "name": "TypeScript", "category": "Lenguaje", "slug": "typescript" },
+      { "name": "Prisma", "category": "Backend", "slug": "prisma" },
+      { "name": "MySQL", "category": "Base de Datos", "slug": "mysql" },
+      { "name": "Unity", "category": "GameDev", "slug": "unity" },
+      { "name": "Unreal Engine", "category": "GameDev", "slug": "unrealengine" },
+      { "name": "Node JS", "category": "Backend", "slug": "nodedotjs" },
+      { "name": "Blender", "category": "Animación 3D", "slug": "blender" },
+      { "name": "DaVinci Resolve", "category": "Edición de Video", "slug": "davinciresolve" },
+      { "name": "Figma", "category": "UI/UX", "slug": "figma" }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "view_code": "Ver C\u00f3digo",
+    "view_live": "Ver Proyecto",
+    "details": "Detalles",
+    "close": "Cerrar",
+    "list": [
+      {
+        "id": 1,
+        "title": "Plataforma Soulutions",
+        "labels": ["Remix", "MySQL", "Prisma", "Stripe", "Tailwind CSS", "Firebase", "TypeScript"],
+        "description": "Plataforma web diseñada para centralizar y potenciar iniciativas con enfoque ambiental y comunitario en Costa Rica. Permite gestionar recaudaciones de fondos de forma transparente con seguimiento de hitos en tiempo real. Lideré la recuperación técnica del proyecto, reconstruyendo la lógica de negocio y los servicios principales además de implementar muchos otros nuevos.",
+        "image": null,
+        "logo": "/projects/soulutions.svg",
+        "links": { "code": null, "live": "https://soulutions.earth/" }
+      },
+      {
+        "id": 2,
+        "title": "Landing Page | Tecno Air Cold",
+        "labels": ["Angular", "TypeScript", "CSS"],
+        "description": "Landing page enfocada en la conversión y posicionamiento digital. Incluye presentación de servicios, testimonios y sistema de contacto directo. Prioricé la experiencia de usuario para facilitar la captación de clientes en un plazo de entrega reducido.",
+        "image": null,
+        "logo": "/projects/tecno-air-cold.svg",
+        "links": { "code": null, "live": "https://tecnoaircoldsolution.com/" }
+      },
+      {
+        "id": 3,
+        "title": "Sistema ERP | Tecno Air Cold",
+        "labels": ["Angular", "TypeScript", "Firebase"],
+        "description": "Aplicación interna para optimizar la gestión operativa. Incluye control de asistencia, cálculo de nómina y un módulo de gestión de servicios técnicos para programar visitas y generar reportes automatizados de mantenimiento.",
+        "image": null,
+        "logo": "/projects/tecno-air-cold.svg",
+        "links": { "code": null, "live": null }
+      },
+      {
+        "id": 4,
+        "title": "Gestión de Citas | King of Kings",
+        "labels": ["React", "Angular", "GraphQL", "Firebase", "Prisma"],
+        "description": "Solución integral para barberías con dos plataformas sincronizadas. Incluye un portal del cliente para agendamiento con validación en tiempo real y un panel administrativo para monitoreo de métricas y gestión de agenda.",
+        "image": null,
+        "logo": "/projects/king-of-kings.svg",
+        "links": { "code": null, "live": "https://app.kingofkingscr.com/" }
+      },
+      {
+        "id": 5,
+        "title": "Eureka Ticket",
+        "labels": ["React", "Tailwind CSS", "GraphQL", "Prisma", "Firebase"],
+        "description": "Plataforma para la venta de entradas y gestión de eventos. Cubre desde la comercialización y transferencia de tiquetes hasta el control de acceso mediante escaneo de seguridad en sitio.",
+        "image": null,
+        "logo": "/projects/eurek-tickets.svg",
+        "links": { "code": null, "live": "https://eurektickets.com/" }
+      },
+      {
+        "id": 6,
+        "title": "Conta Fast",
+        "labels": ["React", "Material UI", "Node.js", "MySQL", "Knex.js"],
+        "description": "Modernización de una plataforma legacy de facturación electrónica. Actualicé el stack tecnológico, implementé mejoras de seguridad (RBAC) y optimicé la integración con el Ministerio de Hacienda.",
+        "image": null,
+        "logo": null,
+        "links": { "code": null, "live": null }
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "list": [
+      {
+        "year": "2022 - 2026",
+        "role": "Desarrollador Full-Stack",
+        "company": "Tavuel"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Hablemos",
+    "description": "\u00bfTienes un proyecto en mente o una oportunidad profesional? \u00a1Hag\u00e1moslo realidad!",
+    "send_message": "Enviar Mensaje"
+  }
+}

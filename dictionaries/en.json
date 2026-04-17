@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "title": "JICV | Portfolio",
+    "description": "Frontend Developer & Gameplay Programmer Portfolio | Jose Isaac Cambronero Valverde"
+  },
+  "navigation": {
+    "about": "About Me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "games": "Games"
+  },
+  "hero": {
+    "role": "Frontend Developer",
+    "roles": ["Frontend Developer", "Gameplay Programmer"],
+    "experience_label": "4+ years of experience",
+    "value_proposition": "Simplifying technical complexity with high-quality solutions, designed to meet the most demanding deadlines.",
+    "heading_1": "Creative.",
+    "heading_2": "Scalable.",
+    "heading_3": "Fast.",
+    "view_projects": "Projects",
+    "contact_me": "Contact Me",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "cv": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I'm Isaac, a developer driven by creating tailor-made digital experiences. What started with modding video games evolved into a solid career as a Frontend Developer with a Backend foundation, while in parallel, cultivating a passion for Gameplay Programming as a hobby.",
+    "p2": "My professional journey began during my university years, allowing me to accumulate over 4 years of real experience facing technical challenges, managing clients, and optimizing user experience. Today, I combine my technical profile with skills in 3D animation, multimedia content creation, and music composition to build comprehensive and memorable digital products when required or possible.",
+    "highlights": [
+      "tailor-made digital experiences",
+      "career as a Frontend Developer",
+      "over 4 years of real experience"
+    ]
+  },
+  "skills": {
+    "title": "Technologies",
+    "show_all": "Show All",
+    "list": [
+      { "name": "React JS", "category": "Frontend", "slug": "react" },
+      { "name": "Remix", "category": "Frontend", "slug": "remix" },
+      { "name": "Tailwind CSS", "category": "Styling", "slug": "tailwindcss" },
+      { "name": "TypeScript", "category": "Language", "slug": "typescript" },
+      { "name": "Prisma", "category": "Backend", "slug": "prisma" },
+      { "name": "MySQL", "category": "Database", "slug": "mysql" },
+      { "name": "Unity", "category": "GameDev", "slug": "unity" },
+      { "name": "Unreal Engine", "category": "GameDev", "slug": "unrealengine" },
+      { "name": "Node JS", "category": "Backend", "slug": "nodedotjs" },
+      { "name": "Blender", "category": "Motion/3D", "slug": "blender" },
+      { "name": "DaVinci Resolve", "category": "Video Editing", "slug": "davinciresolve" },
+      { "name": "Figma", "category": "UI/UX", "slug": "figma" }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "view_code": "View Code",
+    "view_live": "View Live",
+    "details": "Details",
+    "close": "Close",
+    "list": [
+      {
+        "id": 1,
+        "title": "Soulutions Platform",
+        "labels": ["Remix", "MySQL", "Prisma", "Stripe", "Tailwind CSS", "Firebase", "TypeScript"],
+        "description": "Web platform designed to centralize and empower environmental and community initiatives in Costa Rica. Enables transparent fundraising with real-time milestone tracking. I led the project's technical recovery, rebuilding the business logic and core services, as well as implementing many other new ones.",
+        "image": null,
+        "logo": "/projects/soulutions.svg",
+        "links": { "code": null, "live": "https://soulutions.earth/" }
+      },
+      {
+        "id": 2,
+        "title": "Landing Page | Tecno Air Cold",
+        "labels": ["Angular", "TypeScript", "CSS"],
+        "description": "Landing page focused on conversion and digital positioning. Includes service presentation, testimonials, and a simplified direct contact system. I prioritized the user experience to facilitate client acquisition within a tight deadline.",
+        "image": null,
+        "logo": "/projects/tecno-air-cold.svg",
+        "links": { "code": null, "live": "https://tecnoaircoldsolution.com/" }
+      },
+      {
+        "id": 3,
+        "title": "ERP System | Tecno Air Cold",
+        "labels": ["Angular", "TypeScript", "Firebase"],
+        "description": "Internal application to optimize operational management. Includes attendance control, automated payroll calculation, and a technical service module for scheduling visits and generating automated maintenance reports.",
+        "image": null,
+        "logo": "/projects/tecno-air-cold.svg",
+        "links": { "code": null, "live": null }
+      },
+      {
+        "id": 4,
+        "title": "Booking System | King of Kings",
+        "labels": ["React", "Angular", "GraphQL", "Firebase", "Prisma"],
+        "description": "Comprehensive solution for barbershops with two synchronized platforms. Includes a client portal for booking with real-time validation and an admin panel for monitoring business metrics and agenda management.",
+        "image": null,
+        "logo": "/projects/king-of-kings.svg",
+        "links": { "code": null, "live": "https://app.kingofkingscr.com/" }
+      },
+      {
+        "id": 5,
+        "title": "Eureka Ticket",
+        "labels": ["React", "Tailwind CSS", "GraphQL", "Prisma", "Firebase"],
+        "description": "Complete platform for ticket sales and event management. Covers everything from commercialization and ticket transfers to security access control via on-site scanning.",
+        "image": null,
+        "logo": "/projects/eurek-tickets.svg",
+        "links": { "code": null, "live": "https://eurektickets.com/" }
+      },
+      {
+        "id": 6,
+        "title": "Conta Fast",
+        "labels": ["React", "Material UI", "Node.js", "MySQL", "Knex.js"],
+        "description": "Technical modernization of a legacy electronic invoicing platform. Updated the technology stack, implemented security enhancements (RBAC), and optimized integration with the Ministry of Finance.",
+        "image": null,
+        "links": { "code": null, "live": null }
+      }
+    ]
+  },
+  "experience": {
+    "title": "Work Experience",
+    "list": [
+      {
+        "year": "2022 - 2026",
+        "role": "Full-Stack Developer",
+        "company": "Tavuel"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's Talk",
+    "description": "Have a project in mind or a professional opportunity? Let's make it happen!",
+    "send_message": "Send Message"
+  }
+}
