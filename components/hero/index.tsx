@@ -69,15 +69,14 @@ export default function Hero({ dict, lang }: HeroProps) {
           className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4 w-full max-w-sm md:max-w-none mx-auto"
         >
           <CTAButton
+            icon={Briefcase}
+            label={dict.hero.view_projects}
+            href="#projects"
+          />
+          <CTAButton
             icon={GithubIcon}
             label={dict.hero.github}
             href="https://github.com/jicv22"
-            external
-          />
-          <CTAButton
-            icon={LinkedinIcon}
-            label={dict.hero.linkedin}
-            href="https://www.linkedin.com/in/jicv22"
             external
           />
           <CTAButton
@@ -93,9 +92,10 @@ export default function Hero({ dict, lang }: HeroProps) {
             download
           />
           <CTAButton
-            icon={Briefcase}
-            label={dict.hero.view_projects}
-            href="#projects"
+            icon={LinkedinIcon}
+            label={dict.hero.linkedin}
+            href="https://www.linkedin.com/in/jicv22"
+            external
           />
         </motion.div>
       </div>

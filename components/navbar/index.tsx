@@ -44,8 +44,8 @@ export default function Navbar({ dict, lang }: NavbarProps) {
   }, [closeMenu]);
 
   const navLinks: NavLink[] = useMemo(() => [
-    { href: "#skills", label: dict.navigation.skills },
     { href: "#projects", label: dict.navigation.projects },
+    { href: "#skills", label: dict.navigation.skills },
     { href: "#experience", label: dict.navigation.experience },
     { href: "#contact", label: dict.navigation.contact },
   ], [dict.navigation]);

@@ -7,6 +7,7 @@ import Skills from "@/components/skills";
 import Projects from "@/components/projects";
 import Experience from "@/components/experience";
 import Contact from "@/components/contact";
+import ScrollIndicator from "@/components/common/ScrollIndicator";
 
 export default async function Page({
   params,
@@ -21,12 +22,13 @@ export default async function Page({
       <Navbar dict={dict} lang={lang} />
       <main className="flex flex-col min-h-screen pt-12">
         <Hero dict={dict} lang={lang} />
-        <AboutMe dict={dict} />
-        <Skills dict={dict} />
         <Projects dict={dict} />
+        <Skills dict={dict} />
         <Experience dict={dict} />
+        <AboutMe dict={dict} />
         <Contact dict={dict} />
       </main>
+      <ScrollIndicator />
     </>
   );
 }

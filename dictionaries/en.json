@@ -41,6 +41,7 @@
     "list": [
       { "name": "React JS", "category": "Frontend", "slug": "react" },
       { "name": "Remix", "category": "Frontend", "slug": "remix" },
+      { "name": "Next JS", "category": "Frontend", "slug": "nextdotjs" },
       { "name": "Tailwind CSS", "category": "Styling", "slug": "tailwindcss" },
       { "name": "TypeScript", "category": "Language", "slug": "typescript" },
       { "name": "Prisma", "category": "Backend", "slug": "prisma" },
