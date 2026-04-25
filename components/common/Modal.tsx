@@ -42,7 +42,7 @@ export default function Modal({ isOpen, onClose, title, children }: ModalProps) 
 
         <h3 className="text-3xl md:text-4xl font-bold mb-4 pr-8">{title}</h3>
 
-        <div className="overflow-y-auto pr-6 custom-scrollbar flex-1 pb-4">
+        <div className="overflow-y-auto px-4 custom-scrollbar flex-1 pb-4">
           {children}
         </div>
       </motion.div>
