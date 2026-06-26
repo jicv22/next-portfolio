@@ -33,6 +33,43 @@ const CV_ACCENT: Record<CvType, string> = {
   gamedev: "from-emerald-500/20 to-teal-500/10 group-hover:from-emerald-500/30",
 };
 
+const MOBILE_PANEL_MOTION = {
+  initial: { opacity: 0, y: "100%" },
+  animate: { opacity: 1, y: 0 },
+  exit: { opacity: 0, y: "100%" },
+} as const;
+
+const MOBILE_PANEL_TRANSITION = {
+  type: "spring" as const,
+  damping: 28,
+  stiffness: 320,
+  mass: 0.8,
+};
+
+const DESKTOP_PANEL_VARIANTS = {
+  initial: { opacity: 0, scale: 0.6, y: "-90vh" },
+  animate: {
+    opacity: 1,
+    scale: 1,
+    y: 0,
+    transition: {
+      type: "spring",
+      damping: 19,
+      stiffness: 440,
+      mass: 0.6,
+    },
+  },
+  exit: {
+    opacity: 0.5,
+    scale: 0.72,
+    y: "50vh",
+    transition: {
+      duration: 0.36,
+      ease: [0.36, 0, 0.66, -0.08],
+    },
+  },
+} as const;
+
 interface CvSelectionPanelProps {
   isOpen: boolean;
   onClose: () => void;
@@ -142,27 +179,11 @@ export function CvSelectionPanel({
             aria-modal="true"
             aria-labelledby="cv-selection-title"
             tabIndex={-1}
-            initial={
-              isMobile
-                ? { opacity: 0, y: "100%" }
-                : { opacity: 0, scale: 0.92, y: 16 }
-            }
-            animate={
-              isMobile
-                ? { opacity: 1, y: 0 }
-                : { opacity: 1, scale: 1, y: 0 }
-            }
-            exit={
-              isMobile
-                ? { opacity: 0, y: "100%" }
-                : { opacity: 0, scale: 0.95, y: 8 }
-            }
-            transition={{
-              type: "spring",
-              damping: 28,
-              stiffness: 320,
-              mass: 0.8,
-            }}
+            variants={isMobile ? undefined : DESKTOP_PANEL_VARIANTS}
+            initial={isMobile ? MOBILE_PANEL_MOTION.initial : "initial"}
+            animate={isMobile ? MOBILE_PANEL_MOTION.animate : "animate"}
+            exit={isMobile ? MOBILE_PANEL_MOTION.exit : "exit"}
+            transition={isMobile ? MOBILE_PANEL_TRANSITION : undefined}
             className="relative w-full md:max-w-lg glass-panel rounded-t-3xl md:rounded-3xl p-6 md:p-8 shadow-2xl outline-none max-h-[90vh] overflow-hidden flex flex-col"
           >
             <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-purple-500 to-indigo-500" />
