@@ -25,6 +25,32 @@
     "linkedin": "LinkedIn",
     "cv": "Descargar CV"
   },
+  "cvSelection": {
+    "title": "Elige tu CV",
+    "subtitle": "Selecciona la versión que mejor encaje con la oportunidad",
+    "close": "Cerrar",
+    "downloading": "Descargando...",
+    "onlySpanish": "Los CV están disponibles solo en español por ahora.",
+    "options": {
+      "fullstack": {
+        "title": "Full Stack Developer",
+        "description": "Frontend, backend y bases de datos para roles de desarrollo integral."
+      },
+      "frontend": {
+        "title": "Frontend Developer",
+        "description": "React, Next.js y UI de alto impacto para equipos de producto."
+      },
+      "gamedev": {
+        "title": "Game Developer",
+        "description": "Gameplay, Unity y Unreal para estudios y proyectos interactivos."
+      }
+    },
+    "errors": {
+      "notFound": "No se encontró el archivo. Inténtalo más tarde.",
+      "network": "Error de conexión. Revisa tu red e inténtalo de nuevo.",
+      "usingFallback": "Descargado en español — la versión en tu idioma aún no está disponible."
+    }
+  },
   "about": {
     "title": "Sobre M\u00ed",
     "p1": "Soy Isaac, un desarrollador impulsado por la creación de experiencias digitales a medida. Lo que comenzó modificando videojuegos, evolucionó en una carrera sólida como desarrollador Frontend con bases en Backend, cultivando, paralelamente, un hobby por la programación de gameplay para videojuegos.",
