@@ -1,11 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Download, Send, Briefcase } from "lucide-react";
+import { Send, Briefcase } from "lucide-react";
 import { isValidLocale, type Locale } from "@/i18n.config";
 import type { Dictionary } from "@/types";
 import { Typewriter } from "./Typewriter";
 import { CTAButton } from "./CTAButton";
+import { CvDownloadButton } from "./CvDownloadButton";
 import { GithubIcon, LinkedinIcon } from "./SocialIcons";
 
 interface HeroProps {
@@ -85,11 +86,10 @@ export default function Hero({ dict, lang }: HeroProps) {
             href="#contact"
             primary
           />
-          <CTAButton
-            icon={Download}
+          <CvDownloadButton
             label={dict.hero.cv}
-            href={`/cv/CV_Jose_Cambronero_Frontend_${safeLang.toUpperCase()}.pdf`}
-            download
+            dict={dict}
+            lang={safeLang}
           />
           <CTAButton
             icon={LinkedinIcon}
