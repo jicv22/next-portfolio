@@ -47,6 +47,7 @@ export default function Navbar({ dict, lang }: NavbarProps) {
     { href: "#projects", label: dict.navigation.projects },
     { href: "#skills", label: dict.navigation.skills },
     { href: "#experience", label: dict.navigation.experience },
+    { href: "#plans", label: dict.navigation.plans },
     { href: "#contact", label: dict.navigation.contact },
   ], [dict.navigation]);
 

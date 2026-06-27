@@ -1,5 +1,9 @@
 import {
-  getCvFilename,
+  getFilenameFromUrl,
+  triggerFileDownload,
+  verifyFileExists,
+} from "@/lib/file-download";
+import {
   resolveCvUrl,
   type CvType,
 } from "@/lib/cv-config";
@@ -12,25 +16,6 @@ export interface CvDownloadResult {
   error?: CvDownloadError;
   usedFallback?: boolean;
   filename?: string;
-}
-
-async function verifyCvExists(url: string): Promise<boolean> {
-  try {
-    const response = await fetch(url, { method: "HEAD", cache: "no-store" });
-    return response.ok;
-  } catch {
-    return false;
-  }
-}
-
-function triggerBrowserDownload(url: string, filename: string): void {
-  const anchor = document.createElement("a");
-  anchor.href = url;
-  anchor.download = filename;
-  anchor.rel = "noopener";
-  document.body.appendChild(anchor);
-  anchor.click();
-  document.body.removeChild(anchor);
 }
 
 /**
@@ -47,15 +32,15 @@ export async function downloadCv(
     return { success: false, error: "not_found" };
   }
 
-  const exists = await verifyCvExists(resolved.url);
+  const exists = await verifyFileExists(resolved.url);
   if (!exists) {
     return { success: false, error: "not_found" };
   }
 
-  const filename = getCvFilename(resolved.url);
+  const filename = getFilenameFromUrl(resolved.url);
 
   try {
-    triggerBrowserDownload(resolved.url, filename);
+    triggerFileDownload(resolved.url, filename);
     return {
       success: true,
       usedFallback: resolved.usedFallback,

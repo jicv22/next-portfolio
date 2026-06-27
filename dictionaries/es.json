@@ -1,25 +1,28 @@
 {
   "metadata": {
-    "title": "JICV | Portafolio",
-    "description": "Portafolio de Desarrollador Frontend y Programador de Gameplay | Jose Isaac Cambronero Valverde"
+    "title": "JICV | Desarrollador Full Stack",
+    "description": "Portafolio de Desarrollador Full Stack | Jose Isaac Cambronero Valverde"
   },
   "navigation": {
     "about": "Acerca de m\u00ed",
     "skills": "Habilidades",
     "projects": "Proyectos",
     "experience": "Experiencia",
+    "plans": "Planes",
     "contact": "Contacto",
     "games": "Videojuegos"
   },
   "hero": {
-    "role": "Desarrollador Frontend",
-    "roles": ["Desarrollador Frontend", "Programador de Gameplay"],
-    "experience_label": "4+ años de experiencia",
-    "value_proposition": "Simplificando la complejidad técnica con soluciones de alta calidad, diseñadas para cumplir con los plazos más exigentes.",
-    "heading_1": "Creativo.",
-    "heading_2": "Escalable.",
-    "heading_3": "Rápido.",
+    "role": "Desarrollador Full Stack",
+    "roles": ["Desarrollador Full Stack", "Desarrollador Full Stack"],
+    "experience_label": "4+ a\u00f1os de experiencia",
+    "value_proposition": "Disponible para incorporarme a equipos o tomar proyectos freelance. Desarrollo aplicaciones web completas, de la interfaz a la base de datos.",
+    "heading_1": "Isaac",
+    "heading_2": "Cambronero",
+    "heading_3": "Valverde",
     "view_projects": "Ver Proyectos",
+    "plans_cta": "Ver Planes",
+    "plans_work_cta": "Ver planes de trabajo",
     "contact_me": "Cont\u00e1ctame",
     "github": "GitHub",
     "linkedin": "LinkedIn",
@@ -27,10 +30,10 @@
   },
   "cvSelection": {
     "title": "Elige tu CV",
-    "subtitle": "Selecciona la versión que mejor encaje con la oportunidad",
+    "subtitle": "Selecciona la versi\u00f3n que mejor encaje con la oportunidad",
     "close": "Cerrar",
     "downloading": "Descargando...",
-    "onlySpanish": "Los CV están disponibles solo en español por ahora.",
+    "onlySpanish": "Los CV est\u00e1n disponibles solo en espa\u00f1ol por ahora.",
     "options": {
       "fullstack": {
         "title": "Full Stack Developer",
@@ -46,37 +49,34 @@
       }
     },
     "errors": {
-      "notFound": "No se encontró el archivo. Inténtalo más tarde.",
-      "network": "Error de conexión. Revisa tu red e inténtalo de nuevo.",
-      "usingFallback": "Descargado en español — la versión en tu idioma aún no está disponible."
+      "notFound": "No se encontr\u00f3 el archivo. Int\u00e9ntalo m\u00e1s tarde.",
+      "network": "Error de conexi\u00f3n. Revisa tu red e int\u00e9ntalo de nuevo.",
+      "usingFallback": "Descargado en espa\u00f1ol. La versi\u00f3n en tu idioma a\u00fan no est\u00e1 disponible."
     }
   },
   "about": {
     "title": "Sobre M\u00ed",
-    "p1": "Soy Isaac, un desarrollador impulsado por la creación de experiencias digitales a medida. Lo que comenzó modificando videojuegos, evolucionó en una carrera sólida como desarrollador Frontend con bases en Backend, cultivando, paralelamente, un hobby por la programación de gameplay para videojuegos.",
-    "p2": "Mi trayectoria profesional inici\u00f3 en la etapa universitaria, lo que me permiti\u00f3 acumular m\u00e1s de 4 a\u00f1os de experiencia real enfrentando retos t\u00e9cnicos, gestionando clientes y optimizando la experiencia de usuario. Hoy, combino mi perfil t\u00e9cnico con habilidades en animaci\u00f3n 3D, creaci\u00f3n de contenido multimedia y composici\u00f3n musical para construir productos digitales integrales y memorables cuando me es requerido o posible.",
+    "p1": "Soy Isaac, desarrollador full stack enfocado en construir productos web completos: desde interfaces claras y r\u00e1pidas hasta APIs, l\u00f3gica de negocio y persistencia de datos.",
+    "p2": "Mi trayectoria profesional inici\u00f3 en la etapa universitaria, lo que me permiti\u00f3 acumular m\u00e1s de 4 a\u00f1os de experiencia real resolviendo retos t\u00e9cnicos, trabajando con clientes y llevando proyectos de principio a fin. Me interesa entregar soluciones robustas, mantenibles y alineadas con las necesidades del producto.",
     "highlights": [
-      "experiencias digitales a medida",
-      "modificando videojuegos",
-      "más de 4 años de experiencia real"
+      "productos web completos",
+      "APIs y bases de datos",
+      "m\u00e1s de 4 a\u00f1os de experiencia real"
     ]
   },
   "skills": {
-    "title": "Tecnologías",
+    "title": "Tecnolog\u00edas",
     "show_all": "Ver Todo",
     "list": [
-      { "name": "React JS", "category": "Frontend", "slug": "react" },
-      { "name": "Remix", "category": "Frontend", "slug": "remix" },
-      { "name": "Next JS", "category": "Frontend", "slug": "nextdotjs" },
-      { "name": "Tailwind CSS", "category": "Estilos", "slug": "tailwindcss" },
       { "name": "TypeScript", "category": "Lenguaje", "slug": "typescript" },
+      { "name": "Node JS", "category": "Backend", "slug": "nodedotjs" },
+      { "name": "React JS", "category": "Frontend", "slug": "react" },
+      { "name": "Next JS", "category": "Frontend", "slug": "nextdotjs" },
+      { "name": "Remix", "category": "Frontend", "slug": "remix" },
       { "name": "Prisma", "category": "Backend", "slug": "prisma" },
       { "name": "MySQL", "category": "Base de Datos", "slug": "mysql" },
-      { "name": "Unity", "category": "GameDev", "slug": "unity" },
-      { "name": "Unreal Engine", "category": "GameDev", "slug": "unrealengine" },
-      { "name": "Node JS", "category": "Backend", "slug": "nodedotjs" },
-      { "name": "Blender", "category": "Animación 3D", "slug": "blender" },
-      { "name": "DaVinci Resolve", "category": "Edición de Video", "slug": "davinciresolve" },
+      { "name": "GraphQL", "category": "API", "slug": "graphql" },
+      { "name": "Tailwind CSS", "category": "Estilos", "slug": "tailwindcss" },
       { "name": "Figma", "category": "UI/UX", "slug": "figma" }
     ]
   },
@@ -91,7 +91,7 @@
         "id": 1,
         "title": "Plataforma Soulutions",
         "labels": ["Remix", "MySQL", "Prisma", "Stripe", "Tailwind CSS", "Firebase", "TypeScript"],
-        "description": "Plataforma web diseñada para centralizar y potenciar iniciativas con enfoque ambiental y comunitario en Costa Rica. Permite gestionar recaudaciones de fondos de forma transparente con seguimiento de hitos en tiempo real. Lideré la recuperación técnica del proyecto, reconstruyendo la lógica de negocio y los servicios principales además de implementar muchos otros nuevos.",
+        "description": "Plataforma web full stack para centralizar iniciativas ambientales y comunitarias en Costa Rica. Incluye recaudaci\u00f3n de fondos, seguimiento de hitos, l\u00f3gica de negocio y servicios backend. Lider\u00e9 la recuperaci\u00f3n t\u00e9cnica del proyecto, reconstruyendo la arquitectura y los m\u00f3dulos principales.",
         "image": null,
         "logo": "/projects/soulutions.svg",
         "links": { "code": null, "live": "https://soulutions.earth/" }
@@ -100,7 +100,7 @@
         "id": 2,
         "title": "Landing Page | Tecno Air Cold",
         "labels": ["Angular", "TypeScript", "CSS"],
-        "description": "Landing page enfocada en la conversión y posicionamiento digital. Incluye presentación de servicios, testimonios y sistema de contacto directo. Prioricé la experiencia de usuario para facilitar la captación de clientes en un plazo de entrega reducido.",
+        "description": "Landing page enfocada en la conversi\u00f3n y posicionamiento digital. Incluye presentaci\u00f3n de servicios, testimonios y sistema de contacto directo. Prioric\u00e9 la experiencia de usuario para facilitar la captaci\u00f3n de clientes en un plazo de entrega reducido.",
         "image": null,
         "logo": "/projects/tecno-air-cold.svg",
         "links": { "code": null, "live": "https://tecnoaircoldsolution.com/" }
@@ -109,16 +109,16 @@
         "id": 3,
         "title": "Sistema ERP | Tecno Air Cold",
         "labels": ["Angular", "TypeScript", "Firebase"],
-        "description": "Aplicación interna para optimizar la gestión operativa. Incluye control de asistencia, cálculo de nómina y un módulo de gestión de servicios técnicos para programar visitas y generar reportes automatizados de mantenimiento.",
+        "description": "Aplicaci\u00f3n interna para optimizar la gesti\u00f3n operativa. Incluye control de asistencia, c\u00e1lculo de n\u00f3mina y un m\u00f3dulo de gesti\u00f3n de servicios t\u00e9cnicos para programar visitas y generar reportes automatizados de mantenimiento.",
         "image": null,
         "logo": "/projects/tecno-air-cold.svg",
         "links": { "code": null, "live": null }
       },
       {
         "id": 4,
-        "title": "Gestión de Citas | King of Kings",
+        "title": "Gesti\u00f3n de Citas | King of Kings",
         "labels": ["React", "Angular", "GraphQL", "Firebase", "Prisma"],
-        "description": "Solución integral para barberías con dos plataformas sincronizadas. Incluye un portal del cliente para agendamiento con validación en tiempo real y un panel administrativo para monitoreo de métricas y gestión de agenda.",
+        "description": "Soluci\u00f3n integral para barber\u00edas con dos plataformas sincronizadas. Portal de clientes con agendamiento en tiempo real, API GraphQL y panel administrativo para m\u00e9tricas y gesti\u00f3n de agenda.",
         "image": null,
         "logo": "/projects/king-of-kings.svg",
         "links": { "code": null, "live": "https://app.kingofkingscr.com/" }
@@ -127,7 +127,7 @@
         "id": 5,
         "title": "Eureka Ticket",
         "labels": ["React", "Tailwind CSS", "GraphQL", "Prisma", "Firebase"],
-        "description": "Plataforma para la venta de entradas y gestión de eventos. Cubre desde la comercialización y transferencia de tiquetes hasta el control de acceso mediante escaneo de seguridad en sitio.",
+        "description": "Plataforma full stack para venta de entradas y gesti\u00f3n de eventos. Cubre comercializaci\u00f3n, transferencia de tiquetes, backend de eventos y control de acceso con escaneo en sitio.",
         "image": null,
         "logo": "/projects/eurek-tickets.svg",
         "links": { "code": null, "live": "https://eurektickets.com/" }
@@ -136,16 +136,89 @@
         "id": 6,
         "title": "Conta Fast",
         "labels": ["React", "Material UI", "Node.js", "MySQL", "Knex.js"],
-        "description": "Modernización de una plataforma legacy de facturación electrónica. Actualicé el stack tecnológico, implementé mejoras de seguridad (RBAC) y optimicé la integración con el Ministerio de Hacienda.",
+        "description": "Modernizaci\u00f3n full stack de una plataforma legacy de facturaci\u00f3n electr\u00f3nica. Migr\u00e9 el stack, reforc\u00e9 la capa backend con Node.js y MySQL, implement\u00e9 RBAC y optimic\u00e9 la integraci\u00f3n con el Ministerio de Hacienda.",
         "image": null,
         "logo": null,
         "links": { "code": null, "live": null }
       }
     ]
   },
+  "plans": {
+    "title": "Planes de Trabajo",
+    "subtitle": "Trabajo con equipos y clientes de forma directa. Elige el modelo que mejor se adapte a tu proyecto.",
+    "hire_title": "\u00bfBuscas incorporar un desarrollador a tu equipo?",
+    "hire_description": "Estoy abierto a roles full-time o contrato. Escr\u00edbeme directamente o descarga mi CV para ver mi experiencia completa.",
+    "hire_cta": "Hablemos",
+    "hire_cv": "Descargar CV",
+    "new_client_note": "Clientes nuevos: evaluaci\u00f3n inicial del proyecto, recomendaciones t\u00e9cnicas y ajustes menores incluidos sin costo.",
+    "recurring_note": "Clientes recurrentes acceden a tarifas preferenciales, mayor prioridad y soporte extendido.",
+    "availability": "Lun.Vie, 8 AM - 5 PM (GMT-6, Costa Rica)",
+    "overtime_note": "Trabajo urgente o fuera de horario disponible con recargo.",
+    "download_pdf": "Descargar planes en PDF",
+    "downloading_pdf": "Descargando...",
+    "download_pdf_error": "No se encontr\u00f3 el archivo. Int\u00e9ntalo m\u00e1s tarde.",
+    "download_pdf_fallback": "Descargado en espa\u00f1ol. La versi\u00f3n en tu idioma a\u00fan no est\u00e1 disponible.",
+    "cta": "Hablemos",
+    "list": [
+      {
+        "id": "fixed",
+        "title": "Precio Fijo",
+        "tagline": "Para proyectos con alcance definido",
+        "price_label": "A convenir",
+        "price_unit": "",
+        "highlight": false,
+        "badge": "",
+        "payment": "50% al iniciar + 50% contra entrega",
+        "features": [
+          "Alcance y entregables definidos al inicio",
+          "Hasta 2 rondas de revisi\u00f3n incluidas",
+          "Cambios fuera del alcance cotizados aparte",
+          "Entrega antes de publicaci\u00f3n o acceso final"
+        ]
+      },
+      {
+        "id": "hours",
+        "title": "Bolsa de Horas",
+        "tagline": "Para mantenimiento y mejoras continuas",
+        "price_label": "$20",
+        "price_unit": "/ hora",
+        "highlight": false,
+        "badge": "",
+        "payment": "100% por adelantado",
+        "features": [
+          "Tareas priorizadas seg\u00fan necesidad",
+          "Sin compromiso de bloques diarios fijos",
+          "Vigencia de 30 a 60 d\u00edas seg\u00fan paquete",
+          "Horas adicionales al mismo costo base"
+        ]
+      },
+      {
+        "id": "dedicated",
+        "title": "Dedicaci\u00f3n Continua",
+        "tagline": "Para dedicación completa y continuada en tu proyecto",
+        "price_label": "Desde $1,440",
+        "price_unit": "/ mes",
+        "highlight": true,
+        "badge": "Para equipos",
+        "payment": "Pago mensual o quincenal",
+        "features": [
+          "Medio tiempo: $18/h, aprox. $1,440/mes",
+          "Tiempo completo: $16/h, aprox. $2,560/mes",
+          "Agenda reservada durante el per\u00edodo",
+          "Compromiso m\u00ednimo: 1 mes",
+          "Prioridad en agenda y soporte extendido"
+        ]
+      }
+    ]
+  },
   "experience": {
     "title": "Experiencia Profesional",
     "list": [
+      {
+        "year": "2026 - Presente",
+        "role": "Desarrollador Full Stack",
+        "company": "Independiente"
+      },
       {
         "year": "2022 - 2026",
         "role": "Desarrollador Full-Stack",

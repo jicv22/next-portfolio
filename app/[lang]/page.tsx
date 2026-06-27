@@ -6,6 +6,7 @@ import AboutMe from "@/components/about";
 import Skills from "@/components/skills";
 import Projects from "@/components/projects";
 import Experience from "@/components/experience";
+import Plans from "@/components/plans";
 import Contact from "@/components/contact";
 import ScrollIndicator from "@/components/common/ScrollIndicator";
 
@@ -26,6 +27,7 @@ export default async function Page({
         <Skills dict={dict} />
         <Experience dict={dict} />
         <AboutMe dict={dict} />
+        <Plans dict={dict} lang={lang} />
         <Contact dict={dict} />
       </main>
       <ScrollIndicator />

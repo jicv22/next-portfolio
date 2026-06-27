@@ -1,25 +1,28 @@
 {
   "metadata": {
-    "title": "JICV | Portfolio",
-    "description": "Frontend Developer & Gameplay Programmer Portfolio | Jose Isaac Cambronero Valverde"
+    "title": "JICV | Full Stack Developer",
+    "description": "Full Stack Developer Portfolio | Jose Isaac Cambronero Valverde"
   },
   "navigation": {
     "about": "About Me",
     "skills": "Skills",
     "projects": "Projects",
     "experience": "Experience",
+    "plans": "Plans",
     "contact": "Contact",
     "games": "Games"
   },
   "hero": {
-    "role": "Frontend Developer",
-    "roles": ["Frontend Developer", "Gameplay Programmer"],
+    "role": "Full Stack Developer",
+    "roles": ["Full Stack Developer", "Full Stack Developer"],
     "experience_label": "4+ years of experience",
-    "value_proposition": "Simplifying technical complexity with high-quality solutions, designed to meet the most demanding deadlines.",
-    "heading_1": "Creative.",
-    "heading_2": "Scalable.",
-    "heading_3": "Fast.",
-    "view_projects": "Projects",
+    "value_proposition": "Available to join a team or take on freelance projects. I build complete web applications, from the interface to the database.",
+    "heading_1": "Isaac",
+    "heading_2": "Cambronero",
+    "heading_3": "Valverde",
+    "view_projects": "View Projects",
+    "plans_cta": "View Plans",
+    "plans_work_cta": "View work plans",
     "contact_me": "Contact Me",
     "github": "GitHub",
     "linkedin": "LinkedIn",
@@ -48,16 +51,16 @@
     "errors": {
       "notFound": "File not found. Please try again later.",
       "network": "Connection error. Check your network and try again.",
-      "usingFallback": "Downloaded in Spanish — your language version isn't available yet."
+      "usingFallback": "Downloaded in Spanish. Your language version isn't available yet."
     }
   },
   "about": {
     "title": "About Me",
-    "p1": "I'm Isaac, a developer driven by creating tailor-made digital experiences. What started with modding video games evolved into a solid career as a Frontend Developer with a Backend foundation, while in parallel, cultivating a passion for Gameplay Programming as a hobby.",
-    "p2": "My professional journey began during my university years, allowing me to accumulate over 4 years of real experience facing technical challenges, managing clients, and optimizing user experience. Today, I combine my technical profile with skills in 3D animation, multimedia content creation, and music composition to build comprehensive and memorable digital products when required or possible.",
+    "p1": "I'm Isaac, a full stack developer focused on building complete web products: from clear, fast interfaces to APIs, business logic, and data persistence.",
+    "p2": "My career started during university, which gave me over 4 years of hands-on experience solving technical problems, working with clients, and seeing projects through from start to finish. I aim to deliver robust, maintainable solutions that fit what the product actually needs.",
     "highlights": [
-      "tailor-made digital experiences",
-      "career as a Frontend Developer",
+      "complete web products",
+      "APIs and databases",
       "over 4 years of real experience"
     ]
   },
@@ -65,18 +68,15 @@
     "title": "Technologies",
     "show_all": "Show All",
     "list": [
-      { "name": "React JS", "category": "Frontend", "slug": "react" },
-      { "name": "Remix", "category": "Frontend", "slug": "remix" },
-      { "name": "Next JS", "category": "Frontend", "slug": "nextdotjs" },
-      { "name": "Tailwind CSS", "category": "Styling", "slug": "tailwindcss" },
       { "name": "TypeScript", "category": "Language", "slug": "typescript" },
+      { "name": "Node JS", "category": "Backend", "slug": "nodedotjs" },
+      { "name": "React JS", "category": "Frontend", "slug": "react" },
+      { "name": "Next JS", "category": "Frontend", "slug": "nextdotjs" },
+      { "name": "Remix", "category": "Frontend", "slug": "remix" },
       { "name": "Prisma", "category": "Backend", "slug": "prisma" },
       { "name": "MySQL", "category": "Database", "slug": "mysql" },
-      { "name": "Unity", "category": "GameDev", "slug": "unity" },
-      { "name": "Unreal Engine", "category": "GameDev", "slug": "unrealengine" },
-      { "name": "Node JS", "category": "Backend", "slug": "nodedotjs" },
-      { "name": "Blender", "category": "Motion/3D", "slug": "blender" },
-      { "name": "DaVinci Resolve", "category": "Video Editing", "slug": "davinciresolve" },
+      { "name": "GraphQL", "category": "API", "slug": "graphql" },
+      { "name": "Tailwind CSS", "category": "Styling", "slug": "tailwindcss" },
       { "name": "Figma", "category": "UI/UX", "slug": "figma" }
     ]
   },
@@ -91,7 +91,7 @@
         "id": 1,
         "title": "Soulutions Platform",
         "labels": ["Remix", "MySQL", "Prisma", "Stripe", "Tailwind CSS", "Firebase", "TypeScript"],
-        "description": "Web platform designed to centralize and empower environmental and community initiatives in Costa Rica. Enables transparent fundraising with real-time milestone tracking. I led the project's technical recovery, rebuilding the business logic and core services, as well as implementing many other new ones.",
+        "description": "Full stack web platform to centralize environmental and community initiatives in Costa Rica. Includes fundraising, milestone tracking, business logic, and backend services. I led the project's technical recovery, rebuilding the architecture and core modules.",
         "image": null,
         "logo": "/projects/soulutions.svg",
         "links": { "code": null, "live": "https://soulutions.earth/" }
@@ -100,7 +100,7 @@
         "id": 2,
         "title": "Landing Page | Tecno Air Cold",
         "labels": ["Angular", "TypeScript", "CSS"],
-        "description": "Landing page focused on conversion and digital positioning. Includes service presentation, testimonials, and a simplified direct contact system. I prioritized the user experience to facilitate client acquisition within a tight deadline.",
+        "description": "Landing page focused on conversion and digital positioning. Includes service presentation, testimonials, and a direct contact system. I prioritized the user experience to help capture clients on a tight deadline.",
         "image": null,
         "logo": "/projects/tecno-air-cold.svg",
         "links": { "code": null, "live": "https://tecnoaircoldsolution.com/" }
@@ -109,7 +109,7 @@
         "id": 3,
         "title": "ERP System | Tecno Air Cold",
         "labels": ["Angular", "TypeScript", "Firebase"],
-        "description": "Internal application to optimize operational management. Includes attendance control, automated payroll calculation, and a technical service module for scheduling visits and generating automated maintenance reports.",
+        "description": "Internal application to streamline operational management. Includes attendance tracking, payroll calculation, and a service module for scheduling visits and generating automated maintenance reports.",
         "image": null,
         "logo": "/projects/tecno-air-cold.svg",
         "links": { "code": null, "live": null }
@@ -118,7 +118,7 @@
         "id": 4,
         "title": "Booking System | King of Kings",
         "labels": ["React", "Angular", "GraphQL", "Firebase", "Prisma"],
-        "description": "Comprehensive solution for barbershops with two synchronized platforms. Includes a client portal for booking with real-time validation and an admin panel for monitoring business metrics and agenda management.",
+        "description": "End-to-end solution for barbershops with two synchronized platforms. Client portal with real-time booking, GraphQL API, and an admin panel for metrics and schedule management.",
         "image": null,
         "logo": "/projects/king-of-kings.svg",
         "links": { "code": null, "live": "https://app.kingofkingscr.com/" }
@@ -127,7 +127,7 @@
         "id": 5,
         "title": "Eureka Ticket",
         "labels": ["React", "Tailwind CSS", "GraphQL", "Prisma", "Firebase"],
-        "description": "Complete platform for ticket sales and event management. Covers everything from commercialization and ticket transfers to security access control via on-site scanning.",
+        "description": "Full stack platform for ticket sales and event management. Covers sales, ticket transfers, event backend, and on-site access control with scanning.",
         "image": null,
         "logo": "/projects/eurek-tickets.svg",
         "links": { "code": null, "live": "https://eurektickets.com/" }
@@ -136,15 +136,89 @@
         "id": 6,
         "title": "Conta Fast",
         "labels": ["React", "Material UI", "Node.js", "MySQL", "Knex.js"],
-        "description": "Technical modernization of a legacy electronic invoicing platform. Updated the technology stack, implemented security enhancements (RBAC), and optimized integration with the Ministry of Finance.",
+        "description": "Full stack modernization of a legacy electronic invoicing platform. Migrated the stack, strengthened the backend with Node.js and MySQL, implemented RBAC, and improved integration with the Ministry of Finance.",
         "image": null,
+        "logo": null,
         "links": { "code": null, "live": null }
       }
     ]
   },
-  "experience": {
-    "title": "Work Experience",
+  "plans": {
+    "title": "Work Plans",
+    "subtitle": "I work with teams and clients directly. Choose the model that best fits your project.",
+    "hire_title": "Looking to add a developer to your team?",
+    "hire_description": "I'm open to full-time or contract roles. Reach out directly or download my CV to see my full background.",
+    "hire_cta": "Let's Talk",
+    "hire_cv": "Download CV",
+    "new_client_note": "New clients: free initial project evaluation, technical recommendations, and minor adjustments included.",
+    "recurring_note": "Returning clients get preferential rates, higher scheduling priority, and extended support.",
+    "availability": "Mon-Fri, 8 AM - 5 PM (GMT-6, Costa Rica)",
+    "overtime_note": "Urgent or off-hours work available with a surcharge.",
+    "download_pdf": "Download Plans PDF",
+    "downloading_pdf": "Downloading...",
+    "download_pdf_error": "File not found. Please try again later.",
+    "download_pdf_fallback": "Downloaded in Spanish. Your language version isn't available yet.",
+    "cta": "Let's Talk",
     "list": [
+      {
+        "id": "fixed",
+        "title": "Fixed Price",
+        "tagline": "For projects with a defined scope",
+        "price_label": "By quote",
+        "price_unit": "",
+        "highlight": false,
+        "badge": "",
+        "payment": "50% upfront + 50% on delivery",
+        "features": [
+          "Scope and deliverables defined at the start",
+          "Up to 2 revision rounds included",
+          "Out-of-scope changes quoted separately",
+          "Final delivery before publication or full access"
+        ]
+      },
+      {
+        "id": "hours",
+        "title": "Hour Bank",
+        "tagline": "For maintenance and ongoing improvements",
+        "price_label": "$20",
+        "price_unit": "/ hour",
+        "highlight": false,
+        "badge": "",
+        "payment": "100% prepaid",
+        "features": [
+          "Tasks prioritized by need",
+          "No fixed daily block commitment",
+          "Valid for 30 to 60 days depending on package",
+          "Additional hours at the same base rate"
+        ]
+      },
+      {
+        "id": "dedicated",
+        "title": "Dedicated Engagement",
+        "tagline": "For complete and continuous dedication to your project",
+        "price_label": "From $1,440",
+        "price_unit": "/ month",
+        "highlight": true,
+        "badge": "For teams",
+        "payment": "Monthly or bi-weekly billing",
+        "features": [
+          "Part-time: $18/h, approx. $1,440/mo",
+          "Full-time: $16/h, approx. $2,560/mo",
+          "Calendar reserved for the engagement period",
+          "Minimum commitment: 1 month",
+          "Priority scheduling and extended support"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "list": [
+      {
+        "year": "2026 - Present",
+        "role": "Full Stack Developer",
+        "company": "Independent"
+      },
       {
         "year": "2022 - 2026",
         "role": "Full-Stack Developer",

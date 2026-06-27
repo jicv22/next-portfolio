@@ -1,6 +1,7 @@
 import type { Locale } from "@/i18n.config";
+import { getFilenameFromUrl } from "@/lib/file-download";
 
-/** CV role identifiers — add new types here when needed */
+/** CV role identifiers. Add new types here when needed */
 export const CV_TYPES = ["fullstack", "frontend", "gamedev"] as const;
 export type CvType = (typeof CV_TYPES)[number];
 
@@ -81,5 +82,5 @@ export function isCvLocaleAvailable(locale: Locale): boolean {
 }
 
 export function getCvFilename(url: string): string {
-  return url.split("/").pop() ?? "cv.pdf";
+  return getFilenameFromUrl(url);
 }

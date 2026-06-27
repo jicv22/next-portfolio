@@ -8,6 +8,8 @@ export type ExperienceEntry = Dictionary["experience"]["list"][number];
 
 export type Skill = Dictionary["skills"]["list"][number];
 
+export type Plan = Dictionary["plans"]["list"][number];
+
 export interface NavLink {
   href: string;
   label: string;

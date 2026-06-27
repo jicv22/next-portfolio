@@ -6,6 +6,7 @@ import { isValidLocale, type Locale } from "@/i18n.config";
 import type { Dictionary } from "@/types";
 import { Typewriter } from "./Typewriter";
 import { CTAButton } from "./CTAButton";
+import { PlansWorkButton } from "./PlansWorkButton";
 import { CvDownloadButton } from "./CvDownloadButton";
 import { GithubIcon, LinkedinIcon } from "./SocialIcons";
 
@@ -45,13 +46,17 @@ export default function Hero({ dict, lang }: HeroProps) {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-5xl md:text-7xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-linear-to-b from-white to-white/60 leading-tight"
         >
-          <span className="flex flex-col md:flex-row items-center justify-center md:gap-x-4">
-            <span>{dict.hero.heading_1}</span>
-            <span>{dict.hero.heading_2}</span>
-          </span>
-          <span className="text-purple-400 block">
-            {dict.hero.heading_3}
-          </span>
+          {dict.hero.heading_2 ? (
+            <>
+              <span className="flex flex-col md:flex-row items-center justify-center md:gap-x-4">
+                <span>{dict.hero.heading_1}</span>
+                <span>{dict.hero.heading_2}</span>
+              </span>
+              <span className="text-purple-400 block">{dict.hero.heading_3}</span>
+            </>
+          ) : (
+            <span className="text-purple-400 block">{dict.hero.heading_1}</span>
+          )}
         </motion.h1>
 
         <motion.p
@@ -67,36 +72,40 @@ export default function Hero({ dict, lang }: HeroProps) {
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4 w-full max-w-sm md:max-w-none mx-auto"
+          className="flex flex-col items-center gap-4 w-full max-w-sm md:max-w-none mx-auto"
         >
-          <CTAButton
-            icon={Briefcase}
-            label={dict.hero.view_projects}
-            href="#projects"
-          />
-          <CTAButton
-            icon={GithubIcon}
-            label={dict.hero.github}
-            href="https://github.com/jicv22"
-            external
-          />
-          <CTAButton
-            icon={Send}
-            label={dict.hero.contact_me}
-            href="#contact"
-            primary
-          />
-          <CvDownloadButton
-            label={dict.hero.cv}
-            dict={dict}
-            lang={safeLang}
-          />
-          <CTAButton
-            icon={LinkedinIcon}
-            label={dict.hero.linkedin}
-            href="https://www.linkedin.com/in/jicv22"
-            external
-          />
+          <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4 w-full">
+            <CTAButton
+              icon={Briefcase}
+              label={dict.hero.view_projects}
+              href="#projects"
+            />
+            <CTAButton
+              icon={GithubIcon}
+              label={dict.hero.github}
+              href="https://github.com/jicv22"
+              external
+            />
+            <CTAButton
+              icon={Send}
+              label={dict.hero.contact_me}
+              href="#contact"
+              primary
+            />
+            <CvDownloadButton
+              label={dict.hero.cv}
+              dict={dict}
+              lang={safeLang}
+            />
+            <CTAButton
+              icon={LinkedinIcon}
+              label={dict.hero.linkedin}
+              href="https://www.linkedin.com/in/jicv22"
+              external
+            />
+          </div>
+
+          <PlansWorkButton label={dict.hero.plans_work_cta} />
         </motion.div>
       </div>
     </section>
